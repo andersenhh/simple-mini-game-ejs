@@ -1,0 +1,312 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+#games {
+    background: #947852;
+}
+
+.wrapper-title {
+    max-width: 100%;
+    margin-bottom: 16px;
+}
+
+.title {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.back {
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 50px;
+    line-height: 98px;
+    color: #855620;
+    margin-left: 50px;
+    margin-top: 30px;
+}
+
+.logo {
+    width: 80px;
+    height: 80px;
+    margin-bottom: 1rem;
+}
+
+.title-text {
+    font-weight: bold;
+    font-size: 2rem;
+    color: #f09a10;
+    margin-top: 20px;
+    margin-left: 20px;
+
+}
+
+.gameplay {
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    margin-left: 10px;
+}
+
+
+.player-text {
+    font-weight: bold;
+    font-size: 2.25rem;
+    text-align: center;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+}
+
+.player-btn {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.player-batu {
+
+    background: transparent;
+    border-radius: 10%;
+    border: none;
+    margin-top: 0.5rem;
+    width: 27vh;
+    height: 27vh;
+}
+
+.player-kertas {
+    background: transparent;
+    border-radius: 10%;
+    border: none;
+    margin-top: 0.5rem;
+    width: 27vh;
+    height: 27vh;
+}
+
+
+.player-gunting {
+    background: transparent;
+    border-radius: 10%;
+    border: none;
+    margin-top: 0.5rem;
+    width: 27vh;
+    height: 27vh;
+}
+
+.player-batu-img {
+    width: 20vh;
+    height: 15vh;
+}
+
+.player-kertas-img {
+    width: 20vh;
+    height: 17vh;
+}
+
+.player-gunting-img {
+    width: 21vh;
+    height: 18vh;
+}
+
+.gameplay .wrapper-com {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.com-text {
+    font-weight: bold;
+    font-size: 2.25rem;
+    text-align: center;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+}
+
+.com-btn {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+
+.com-batu {
+    background: transparent;
+    border-radius: 10%;
+    border: none;
+    margin-top: 0.5rem;
+    width: 27vh;
+    height: 27vh;
+}
+
+.com-kertas {
+    background: transparent;
+    border-radius: 10%;
+    border: none;
+    margin-top: 0.5rem;
+    width: 27vh;
+    height: 27vh;
+}
+
+.com-gunting {
+    background: transparent;
+    border-radius: 10%;
+    border: none;
+    margin-top: 0.5rem;
+    width: 27vh;
+    height: 27vh;
+}
+
+.com-batu-img {
+    width: 20vh;
+    height: 15vh;
+}
+
+.com-kertas-img {
+    width: 20vh;
+    height: 17vh;
+}
+
+.com-gunting-img {
+    width: 21vh;
+    height: 18vh;
+}
+
+
+.versus {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    width: 35%;
+}
+
+.versus-text {  
+    font-weight: bold;
+    font-size: 150px;
+    text-align: center;
+    letter-spacing: 0.1em;
+    color: darkred;
+
+}
+
+.game-result {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 250px;
+    height: 200px;
+    background: rgb(89, 185, 89);
+    border-radius: 10px;
+    transform: rotate(-30deg);
+
+}
+ 
+
+.game-draw {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 250px;
+    height: 200px;
+    background: darkgreen;
+    border-radius: 10px;
+    transform: rotate(-30deg);
+}
+
+/* text pada box */
+.win {
+    font-weight: bold;
+    font-size: 30px;
+    text-align: center;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.reset {
+    background-color: transparent;
+    border: none;
+    margin-top: 200px;
+
+}
+
+.reset-btn-img {
+
+    width: 70px;
+    height: 70px;
+}
+
+.player-com-button {
+    background: lightgrey;
+    border-radius: 10%;
+    border: none;
+    margin-top: 0.5rem;
+    width: 27vh;
+    height: 27vh;
+}
+
+
+@media (min-width: 375px) and (max-width: 642px) {
+    .player-batu-img,
+    .player-gunting-img,
+    .player-kertas-img {
+    width: 15vh;
+    height: 10vh;
+    margin-left: 100px;
+    }
+    
+    .com-batu-img,
+    .com-gunting-img,
+    .com-kertas-img {
+    width: 15vh;
+    height: 10vh;
+    margin-right: 100px;
+    
+    }
+    .versus-text {
+        font-size: 40px;
+        margin-top: 350px;
+    }
+    
+    .reset-btn-img {
+    width: 40px;
+    height: 40px;
+    margin-bottom: 50px;
+    }
+    .logo {
+        width: 50px;
+        height: 50px;
+    }
+    .title-text {
+        font-size: 15px;
+        margin-top: 25px;
+    }
+    .player-text {
+        font-size: 20px;
+        margin-left: 90px;
+    }
+    
+    .com-text {
+        font-size: 20px;
+        margin-right: 90px;
+    }
+    .game-result {
+        width: 50px;
+        height: 50px;
+    }
+    .game-draw {
+        width: 50px;
+        height: 50px;
+    }
+    
+    .win {
+        font-size: 10px;
+    }
+    
+    }
+    
